@@ -1,0 +1,153 @@
+#banner {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 3.5em;
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+        animation-timing-function: ease-in-out;
+    }
+    50% {
+        transform: translateY(30px); 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+*{
+    box-sizing:border-box;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+img{
+    display:block;
+    max-width: 60%;
+    height:auto;
+    align-items: center;
+    margin:20px auto;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin:0;
+    padding:0;
+}
+
+#banner h2{
+    padding:30px;
+    color:#ffffff;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background: linear-gradient(90deg, #FEB3C2, #A8D8FF);
+    font-family: "Passero One";  
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width:90%;
+    padding:20px;
+    align-items: center;
+    margin:0 auto;
+    gap:20px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: "Passero One";
+    font-size:1.3em;
+    
+}
+
+section{
+    border-radius:10px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: space-around;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    width:100%;
+    max-width:800px;
+    margin:20px;
+    height:300px; 
+}
+
+section a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#research{
+    background-color: #FEB3C2;  
+}
+
+#research a:hover{
+    background-color: #000000;
+    color: #E4CCFF; 
+    border-radius: 5px;
+    transform: scale(1.2); 
+}
+
+#madlib {
+    background-color: #A8D8FF; 
+    
+}
+
+#madlib a:hover{
+    background-color: #612571;
+    color: #ffffff; 
+    border-radius: 5px;
+    transform: scale(1.2); 
+}
+
+#picture{
+    background-color: #b7e7da;
+}
+
+#picture a:hover{
+    background-color: #fffa73;
+    color: #000000; 
+    border-radius: 5px;
+    transform: scale(1.2); 
+}
+
+#gameon {
+    background-color: #FFD8B1;  
+}
+
+#gameon a:hover{
+    background-color: #ff4b4b;
+    color: #464646; 
+    border-radius: 5px;
+    transform: scale(1.2); 
+}
+
+footer{
+    color:white;
+    text-align: center;
+    padding: 20px;
+    background-color: #E4CCFF;
+}
