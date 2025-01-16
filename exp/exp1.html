@@ -10,9 +10,12 @@
     <h2>You can use inspection to open the console or shortcut "command + shift + J"</h2>
 
     <script>
-        for(var i =1; i<=100; i++){
+        //This experiment is about using console.log to print number 1 to 100. When the number divisable by 3, it shows "Fizz!". When the number divisable by 5, it shows "Buzz". When the number divisable by 3 and 5, it shows "Fizz & Buzz!". Otherwise it shows the number directly.
+        
+        //This is a for loop + if loop to show the number.
+        for(var i = 1; i <= 100; i++){
             if (i % 3 === 0 && i % 5 ===0){
-                console.log("Fizz&Buzz!");
+                console.log("Fizz & Buzz!");
             } else if(i % 3 === 0){
                 console.log("Fizz!");
             } else if(i % 5 === 0){
