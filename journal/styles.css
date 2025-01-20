@@ -1,0 +1,60 @@
+body{
+    background-color: #FDDBB0;
+    color:black;
+}
+
+h1,h2{
+    font-family:"Inria Serif";
+}
+
+img{
+    display:inline;
+    margin:0 auto;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    display:flex;
+    gap:10px;
+}
+
+.header h1{
+    display:inline-block;
+    font-size:4em;
+    font-weight:bold;
+    margin:0;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:0;
+    color:#5c3e23;
+    text-align: center;
+    justify-content: center;
+    text-decoration:overline solid 3px;
+}
+
+h2{
+    text-align: center;
+    font-size:2em;
+    font-weight:normal;
+    color:#5c3e23;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px; 
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+article{
+    font-family:"Inria Serif";
+    font-size: 1.2em;
+    line-height:2em;
+    width:500px;
+    text-align: justify;
+    padding:80px;
+}
+
