@@ -1,7 +1,21 @@
 h1,h2{
     font-family:"IM Fell Great Primer" ;
     margin:0;
-    padding:0;
+    padding:20px;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    font-size:2.5em;
+}
+
+h2{
+    font-size:2em;
+}
+
+body{
+    background-color: bisque;
 }
 
 img{
@@ -13,7 +27,13 @@ img{
 }
 
 .draft img{
-    max-width:60%;
     align-items: center;
     text-align: center;
+    padding:20px;
+}
+
+.digital img{
+    align-items: center;
+    text-align: center;
+    padding:20px;
 }
