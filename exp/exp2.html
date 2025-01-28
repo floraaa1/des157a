@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimemt 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href = "styles.css" rel="stylesheet"> 
+
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <p id ="output"></p>
+
+    <script>
+
+        var question = prompt('How is the weather today?');
+
+        question = question.toLowerCase();
+        
+        var weather =['sunny','windy','cloudy','rainy'];
+
+        var outputMessage;
+        
+        if(question === 'sunny') {
+            outputMessage = 'The weather is very nice today!';
+            console.log('The weather is very nice today!');
+        }
+        else if(question === 'windy') {
+            outputMessage = 'It is windy today.';
+            console.log('It is windy today.');
+        }
+        else if(question === 'cloudy') {
+            outputMessage = 'Cloudy days are great for a walk.';
+            console.log('Cloudy days are great for a walk.');
+        }
+        else if(question === 'rainy'){
+            outputMessage = 'I do not like rainy day, how about you?';
+            console.log('I do not like rainy day, how about you?');
+        }
+        else{
+            outputMessage = 'This is a very interesting way to describe the weather!';
+            console.log('This is a very interesting way to describe the weather!');
+        }
+
+        document.querySelector('#output').innerHTML = outputMessage;
+
+    </script>
+
+</body>
+</html>

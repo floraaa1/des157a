@@ -1,0 +1,25 @@
+body{
+    background-color: #FDDBB0;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    background-color: #fcbb66;
+    padding:30px;
+    margin:20px;
+    border-radius: 10px;
+    font-family:"Inria Serif";
+}
+
+p{
+    font-size:1.5em;
+    color:#4e3310;
+    padding:20px;
+}
+
+h2{
+        font-size:1.5em;
+        color:#4a3314;
+        padding:20px;
+}
