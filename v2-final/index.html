@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlib Final Version</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap" rel="stylesheet">
+    <link href = "styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+       <h1>WELCOME!</h1> 
+    </header>
+
+    <main>
+        <section id="intro">
+            <button type="button" id="start">START</button>
+            <button type="button" id="notReady">NOT READY YET?</button>
+        </section>
+    
+        <section id="form1" class="hidden">
+            <h2>PLEASE FILL IN THE FORM</h2>
+            <form>
+                <ul>
+                    <li><label for="fname">NAME:</label><input type="text" id="fname"></li>
+                    <li><label for="age">AGE:</label><input type="text" id="age"></li>
+                    <li><label for="date">DATE:</label><input type="text" id="date"></li> 
+                </ul>
+                <p id="errorMessage"></p>
+                <div class="buttonContainer">
+                    <button type="button" id="back1">BACK</button>
+                    <button type="button" id="next1">NEXT</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="form2" class="hidden">
+                <form>
+                    <ul>
+                        <li><label for="adjective">ADJECTIVE:</label><input type="text" id="adjective"></li>
+                        <li><label for="noun">NOUN:</label><input type="text" id="noun"></li>
+                        <li><label for="verb">VERB(-ING):</label><input type="text" id="verb"></li>
+                    </ul>
+                    <p id="errorMessage2"></p>
+                    <div class="buttonContainer">
+                        <button type="button" id="back2">BACK</button>
+                        <button type="button" id="next2">NEXT</button>
+                    </div>
+                </form>
+        </section>
+
+        <section id="form3" class="hidden">
+            <form>
+                <ul>
+                    <li><label for="place">PLACE:</label><input type="text" id="place"></li>
+                    <li><label for="time">TIME:</label><input type="text" id="time"></li>
+                    <p id="errorMessage3"></p>
+                    <div class="buttonContainer">
+                        <button type="button" id="back3">BACK</button>
+                        <button type="button" id="submit">SUBMIT</button>
+                    </div>
+                </ul>
+            </form>
+        </section>
+
+        <section id="overlay" class="hidden">
+            <img id="character-image" src="images/b2-2.jpg" alt="character" width="50" height="50">
+            
+            <div id="info">
+                <h4 id="suspectName">Suspect Name:</h4>
+                <h4 id="suspectAge">Age:</h4>
+                <h4 id="incidentDate">Date of incident:</h4>
+                <h4 id="arrestLocation">Location of Arrest:</h4>
+            </div>
+
+            <div id="summary">
+                <p>Full Case Summary: On 2:00 pm, at Museum, an individual identified as Flora, aged 20, was arrested on allegations of running a bed. Witnesses reported that the suspect exhibited a/an cute demeanor and was actively running when approached by law enforcement. The suspect claimed during interrogation, " It was not what it looked like; I was simply running because of bed."</p>
+            </div>
+            <button type="button" id="back4">Back</button>
+        </section>
+        
+    </main>
+
+
+    <!-- <footer>
+        <p>Designed by Shutong Zhang</p>
+    </footer> -->
+
+</body>
+</html>
