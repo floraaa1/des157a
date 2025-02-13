@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,12 +17,12 @@
     </header>
 
     <main>
-        <section id="intro">
+        <div id="intro">
             <button type="button" id="start">START</button>
             <button type="button" id="notReady">NOT READY YET?</button>
-        </section>
+        </div>
     
-        <section id="form1" class="hidden">
+        <div id="form1">
             <h2>PLEASE FILL IN THE FORM</h2>
             <form>
                 <ul>
@@ -36,9 +36,9 @@
                     <button type="button" id="next1">NEXT</button>
                 </div>
             </form>
-        </section>
+        </div>
 
-        <section id="form2" class="hidden">
+        <div id="form2">
                 <form>
                     <ul>
                         <li><label for="adjective">ADJECTIVE:</label><input type="text" id="adjective"></li>
@@ -51,23 +51,23 @@
                         <button type="button" id="next2">NEXT</button>
                     </div>
                 </form>
-        </section>
+            </div>
 
-        <section id="form3" class="hidden">
+        <div id="form3">
             <form>
                 <ul>
                     <li><label for="place">PLACE:</label><input type="text" id="place"></li>
                     <li><label for="time">TIME:</label><input type="text" id="time"></li>
-                    <p id="errorMessage3"></p>
-                    <div class="buttonContainer">
-                        <button type="button" id="back3">BACK</button>
-                        <button type="button" id="submit">SUBMIT</button>
-                    </div>
                 </ul>
+                <p id="errorMessage3"></p>
+                <div class="buttonContainer">
+                    <button type="button" id="back3">BACK</button>
+                    <button type="button" id="submit">SUBMIT</button>
+                </div>
             </form>
-        </section>
+        </div>
 
-        <section id="overlay" class="hidden">
+        <div id="overlay" class="hidden">
             <img id="character-image" src="images/b2-2.jpg" alt="character" width="50" height="50">
             
             <div id="info">
@@ -81,7 +81,7 @@
                 <p>Full Case Summary: On 2:00 pm, at Museum, an individual identified as Flora, aged 20, was arrested on allegations of running a bed. Witnesses reported that the suspect exhibited a/an cute demeanor and was actively running when approached by law enforcement. The suspect claimed during interrogation, " It was not what it looked like; I was simply running because of bed."</p>
             </div>
             <button type="button" id="back4">Back</button>
-        </section>
+        </div>
         
     </main>
 
