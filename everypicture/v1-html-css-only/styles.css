@@ -1,0 +1,92 @@
+h1,h2,h3, h4, ul,p{
+    font-family: "Comic Neue", serif;;
+}
+
+/* camera setting */
+.top_left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.top_right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bottom_left{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.bottom_right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.battery{
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+
+h3{
+    font-size: 1.2em;
+    position:absolute;
+    top: 10px;
+    right: 20px;
+}
+
+h4{
+    font-size: 1.2em;
+    position:absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+body{
+    background-color:rgb(213, 255, 245);
+}
+
+.recording{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+
+.cloudImage, .cuteCloud {
+    display: flex;
+    position: relative;
+    animation: slide 10s linear infinite;
+    overflow:hidden;
+    max-width:1200px;
+    max-height:750px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* .cuteCloud{
+    padding-top: 20PX;;
+} */
+.cloud {
+    width: 720px; 
+    height: 480px;
+    margin-right: 10px; 
+    max-width:100%;
+    /* display:block; */
+}
+
+
+
+/* @keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+} */
+
