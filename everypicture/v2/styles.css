@@ -36,6 +36,7 @@ h2{
 
 body{
     background-image: url(images/color.jpg);
+    background-size: cover;
 }
 
 img{
