@@ -1,0 +1,149 @@
+*{
+    box-sizing:border-box;
+}
+
+nav ul, nav ol{
+    list-style-type:none;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin:0;
+    padding:0;
+}
+
+ul,p{
+    font-family: "Comic Neue", serif;;
+    align-items: center;
+    padding:20px;
+    padding-top:10px;
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:"Permanent Marker", serif;
+} 
+
+h1{
+    font-size:2em;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom: 30px;
+}
+h2{
+    padding-left:20px;
+}
+
+body{
+    background-image: url(images/color.jpg);
+}
+
+img{
+    max-width:100%;
+    /* height:auto; */
+    object-fit: cover;
+}
+
+.one{
+    width:100%;
+    overflow-x:hidden;
+    padding-bottom:60px;
+}
+
+.slider{
+    /* display:flex; */
+    position:relative;
+    overflow:hidden;
+    /* top:0;
+    left:0; */
+    height:100px;
+}
+
+.sliderInner{
+    display:flex;
+    width:200%;
+    animation: scroll 10s linear infinite;
+}
+
+.cloud{
+    width:150px;
+    height:100px;
+    object-fit: cover;
+    margin:0 10px;
+}
+
+.cuteCloud, .cuteCloud2{
+    display:flex;
+    height:100%;
+    flex-wrap: nowrap;
+}
+
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+}
+
+.animate {
+    animation-name: moveSlider;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#section1,#section2,#section3,#section4,#section5{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+
+.clouds{
+    margin-right:20px;
+    width:70%;
+    height:70%;
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.scrollPart {
+    overflow-y: scroll;
+    height: 400px; 
+    border:2px solid rgba(255, 170, 0, 0.1);
+}
+
+.cloudImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    background: rgba(255, 170, 0, 0.1);
+  }
+  
+  .scrollSection {
+    display: block;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  .scrollSection.active {
+    opacity: 1;
+    z-index: 2;
+  }
+
+
+
