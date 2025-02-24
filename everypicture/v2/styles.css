@@ -16,7 +16,7 @@ ul,p{
     align-items: center;
     padding:20px;
     padding-top:10px;
-    font-size: 1.5em;
+    font-size: 2em;
     justify-content: space-around;
 }
 
@@ -104,8 +104,8 @@ img{
 
 .clouds{
     margin-right:20px;
-    width:70%;
-    height:70%;
+    width:60%;
+    height:90%;
 }
 
 .right{
@@ -116,7 +116,7 @@ img{
 
 .scrollPart {
     overflow-y: scroll;
-    height: 400px; 
+    height: 500px; 
     border:2px solid rgba(255, 170, 0, 0.1);
 }
 
