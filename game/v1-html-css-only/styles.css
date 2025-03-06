@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+
+nav ul, nav ol{
+    list-style-type:none;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family:'Irish Grover';
+    font-size:2.5em;
+    text-align: center;
+    padding:20px;
+}
+
+ul li{
+    font-family:'Irish Grover';
+    align-items: center;
+    list-style-type: disc;
+}
+
+.rule{
+    padding-bottom: 30px;
+    margin: 0 auto;   
+    text-align: left;
+    width:450px;
+    padding-top: 20px;
+}
+
+
+button{
+    font-family:'Irish Grover';
+    display:inline-block;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    cursor:pointer;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: rgb(209,151,255);
+    font-size:1.5em;
+}
+
+.into{
+    display:flex;
+    padding-top:30px;
+}
+
+body{
+    background-image: url(images/background1.png);
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top:100px;
+    margin: 20px;
+}
+
+span{
+    color:#FFA187;
+}
+
+span1{
+    color:#3CC0FF;
+}
