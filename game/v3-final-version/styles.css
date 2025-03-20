@@ -64,6 +64,30 @@ button{
     font-size:1.5em;
 }
 
+button:hover{
+    background-color: #FFA187;
+}
+
+#roll:hover{
+    background-color: #FFCE16;
+}
+
+#rollagain:hover{
+    background-color: #FF738F;
+}
+
+#like:hover{
+    background-color: #D197FF;
+}
+
+#sClose:hover{
+    background-color: #C6D2FF;
+}
+
+#close:hover{
+    background-color: #FFCE16;
+}
+
 .intro{
     display:flex;
     padding-top:10px;
